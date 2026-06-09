@@ -1,36 +1,240 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="es">
 <head>
-    <title>Cinthia Saico Yallercco</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinthia Saico Yallercco | CIENCIA DE LA COMPUTACIÓN - UCSP</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, #b2f0e6 0%, #7fd9cd 100%);
+            font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            padding: 2rem 1rem;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: rgba(255, 255, 255, 0.94);
+            backdrop-filter: blur(1px);
+            border-radius: 36px;
+            padding: 2rem 2rem 2.5rem;
+            box-shadow: 0 25px 40px -12px rgba(0, 0, 0, 0.25);
+            transition: transform 0.2s ease;
+        }
+
+        .container:hover {
+            transform: scale(1.01);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: #1e5f5a;
+            border-left: 6px solid #2c8c85;
+            padding-left: 1rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        /* Subtítulo con carrera */
+        .carrera-tag {
+            color: #2c7a72;
+            font-size: 1.2rem;
+            margin-bottom: 1.5rem;
+            padding-left: 1.3rem;
+            font-weight: 500;
+            background: #e0f3ef;
+            display: inline-block;
+            border-radius: 40px;
+            padding: 0.3rem 1.2rem;
+        }
+
+        h2 {
+            font-size: 1.7rem;
+            margin-top: 1.8rem;
+            margin-bottom: 0.7rem;
+            color: #1f6d66;
+            font-weight: 600;
+            border-bottom: 2px dashed #9ad9d0;
+            display: inline-block;
+            padding-bottom: 0.2rem;
+        }
+
+        p {
+            color: #1f3e3b;
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Tarjeta de universidad */
+        .uni-card {
+            background: linear-gradient(120deg, #e6f7f3, #d4efe9);
+            border-radius: 28px;
+            padding: 1.2rem 1.5rem;
+            margin: 1.2rem 0 1.5rem 0;
+            border-left: 8px solid #1f8a7a;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+        }
+
+        .uni-card a {
+            color: #1e6b62;
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 1px dotted;
+        }
+        .uni-card a:hover {
+            color: #0a463f;
+            border-bottom: 1px solid;
+        }
+
+        .badge-ucsp {
+            background-color: #0b5e56;
+            color: white;
+            padding: 0.2rem 0.8rem;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+
+        ul {
+            list-style: none;
+            margin: 0.8rem 0 1rem 0;
+        }
+
+        li {
+            background: #e2f3f0;
+            margin: 0.6rem 0;
+            padding: 0.6rem 1rem;
+            border-radius: 60px;
+            transition: all 0.2s ease;
+            color: #145c55;
+            font-weight: 500;
+            display: inline-block;
+            width: auto;
+            min-width: 180px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        li:hover {
+            background: #c9ece6;
+            transform: translateX(5px);
+        }
+
+        li a {
+            text-decoration: none;
+            color: #176b63;
+            font-weight: 600;
+            display: block;
+        }
+
+        li a:hover {
+            color: #0a3f3a;
+            text-decoration: underline;
+        }
+
+        .frase {
+            background: #d7f0eb;
+            padding: 1rem 1.5rem;
+            border-radius: 50px;
+            font-style: italic;
+            font-size: 1.2rem;
+            text-align: center;
+            margin: 1.8rem 0 1rem;
+            color: #135e57;
+            font-weight: 500;
+            box-shadow: inset 0 0 0 1px rgba(255,255,255,0.6), 0 6px 12px rgba(0,0,0,0.05);
+        }
+
+        .compañeros-titulo {
+            margin-top: 2rem;
+        }
+
+        .footer-note {
+            text-align: center;
+            margin-top: 2rem;
+            font-size: 0.85rem;
+            color: #2b7a72;
+            border-top: 1px solid #bde3dc;
+            padding-top: 1.2rem;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.9rem;
+            }
+            h2 {
+                font-size: 1.4rem;
+            }
+            li {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        h1::before {
+            content: "💻 ";
+            font-size: 2rem;
+        }
+        .emoji-ucsp {
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
-
 <body>
+    <div class="container">
+        <h1>Cinthia Saico Yallercco</h1>
+        <div class="carrera-tag">
+            📍 Estudiante de Ciencia de la Computación
+        </div>
 
-    <h1>Cinthia Saico Yallercco</h1>
+        <p>🌟 ¡Hola! Bienvenido a mi espacio personal. Soy una apasionada por la tecnología, el aprendizaje continuo y la resolución de problemas. Aquí comparto un poco de quién soy y lo que estudio.</p>
 
-    <p>Bienvenido a mi página web personal.</p>
+        <!-- SECCIÓN UNIVERSIDAD (NUEVA) -->
+        <h2>🎓 Universidad</h2>
+        <div class="uni-card">
+            <span class="badge-ucsp">UCSP</span> 
+            <strong>Universidad Católica San Pablo</strong> — Arequipa, Perú<br>
+            <span class="emoji-ucsp">🔗</span> <a href="https://ucsp.edu.pe/" target="_blank" rel="noopener noreferrer">ucsp.edu.pe</a><br><br>
+            Estudio la carrera de <strong>Ciencia de la Computación</strong> en la <strong>Facultad de Ciencias de la Computación</strong>, donde nos preparamos con estándares internacionales (ACM, IEEE) y una visión ética y humana. 
+            📘 <a href="https://dc.ucsp.edu.pe/pregrado/" target="_blank" rel="noopener noreferrer">Más sobre el pregrado →</a>
+        </div>
 
-    <h2>Sobre mí</h2>
-    <p>Me interesa la tecnología y aprender cómo funciona el mundo digital.</p>
+        <h2>Sobre mí</h2>
+        <p>💡 Me encanta entender el mundo digital, desde el software hasta el impacto social de la tecnología. En la UCSP he descubierto cómo la ciencia de la computación puede transformar realidades y generar soluciones innovadoras.</p>
 
-    <h2>Intereses</h2>
-    <ul>
-        <li>Programación</li>
-        <li>Curiosidades del mundo</li>
-        <li>Misterios y teorías</li>
-    </ul>
+        <h2>✨ Intereses</h2>
+        <ul>
+            <li>🚀 Programación y desarrollo</li>
+            <li>🌍 Curiosidades del mundo y divulgación</li>
+            <li>🔍 Misterios, teorías y ciencia de datos</li>
+            <li>🤖 Inteligencia Artificial (futura entusiasta)</li>
+        </ul>
 
-    <h2>Frase</h2>
-    <p>"Siempre hay algo nuevo por descubrir."</p>
+        <div class="frase">
+            ❝ Siempre hay algo nuevo por descubrir. ❞
+        </div>
 
-    <h2>Compañeros</h2>
-    <ul>
-        <li><a href="https://danielamiau.github.io/hosting/">Daniela Brigith Huertas Vila
- </a></li>
-        <li><a href="https://compa2.github.io">Compañero 2</a></li>
-    </ul>
+        <h2 class="compañeros-titulo">🤝 Compañeros</h2>
+        <ul>
+            <li><a href="https://danielamiau.github.io/hosting/" target="_blank" rel="noopener noreferrer">🐱 Daniela Brigith Huertas Vila</a></li>
+            <li><a href="#" target="_blank">👥 Compañero 2 (próximamente)</a></li>
+        </ul>
 
+        <div class="footer-note">
+            💙 Universidad Católica San Pablo — Ciencia de la Computación 💙<br>
+            ✨ Hecho con dedicación por Cinthia ✨
+        </div>
+    </div>
 </body>
-
 </html>
